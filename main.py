@@ -477,7 +477,7 @@ final_answer:There are 2017 vo in begusarai district.....you can clearly see the
         return jsonify({'error': str(e)}), 500
 if __name__ == '__main__':
     
-    app.run(host='0.0.0.0')
+    app.run(host='0.0.0.0',port=5001)
 
 
 
