@@ -48,7 +48,7 @@ os.environ["LANGCHAIN_ENDPOINT"] = "https://api.smith.langchain.com"
 os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY")  # Update to your API key
 
 app = Flask(__name__)
-CORS(app)
+
 
 
 db_user = 'postgres'
