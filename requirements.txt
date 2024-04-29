@@ -22,3 +22,4 @@ flask-cors
 psycopg2
 pgvector
 gunicorn
+Gunicorn
