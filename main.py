@@ -466,8 +466,8 @@ final_answer:There are 2017 vo in begusarai district.....you can clearly see the
             
         cursor.execute(final_query)
 
-        res=flask.Response(jsonify({'response': response}))
-        res.headers["Access-Control-Allow-Origin"]="*"
+        res=jsonify(response)
+        res.headers.add("Access-Control-Allow-Origin",'*')
 
     
     
